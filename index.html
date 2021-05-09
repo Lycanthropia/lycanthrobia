@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
@@ -34,6 +34,7 @@
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#development">Development</a></li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#storyboard">Storyboard</a></li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#trello">Trello</a></li>
+        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#miro">Miro</a></li>
         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Team</a></li>
       </ul>
     </div>
@@ -74,12 +75,16 @@
       <div class="container text-center bg-light pt-3 pb-3">
         <h2 class="m-3">Trailer</h2>
         <div class="iframe-container">
-        <iframe width="800" height="600" src="https://www.youtube.com/embed/4WndBVlu524" title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+          <iframe width="700" height="500" src="https://www.youtube.com/embed/4WndBVlu524" frameborder="0"
+                  allowfullscreen></iframe>
         </div>
         <h2 class="m-3">Video of gameplay</h2>
+        <div class="iframe-container">
+          <iframe width="700" height="500" src="https://www.youtube.com/embed/SyMOb-vHW7A" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+        </div>
       </div>
     </section>
   </div>
@@ -92,7 +97,8 @@
     <!--    <img width="600px" height="300px" src="assets/img/startscreen.gif"/>-->
     <h3>Beginning</h3>
     <p>In the beginning, we worked on the level, adding trees and rivers to create forest scene. We also implemented the
-      first-person controller and imported character models for the hunter and werewolf.</p>
+      first-person controller and imported character models for the hunter and werewolf. Additionally, we
+      added a hiding functionality for the character.</p>
     <div class="row">
       <div class="col-lg-6"><img class="img-fluid" src="assets/img/FirstScene.png"></div>
       <div class="col-lg-3"><img class="img-fluid" src="assets/img/hunter.png"></div>
@@ -100,28 +106,52 @@
     </div>
     <h3 class="mt-5">Midpoint</h3>
     <p>In the midpoint of our project, we worked on animations for the werewolf and implementing the enemy AI which
-      included the patrol/wander, chase, and attack states. We also worked on implementing the gun which includes
-      animation and
-      damage to the werewolf</p>
+      included the patrol/wander, chase, and attack states. We also decided to change up the scene to have bigger trees
+      for our forest. Additionally, we implemented distraction mechanic where the player can throw a meat bone or a rock
+      to divert the werewolf's attention</p>
 
-    <h3>Final</h3>
-    <p>Towards the end of the semester, we worked mainly on fixing bugs we encountered and resolving conflicting changes
-      in our commits. We also decided to change up the scene to have bigger trees for our forest and worked on set
-      design, adding high textured water, flowing grass, and some skeletons with jump scare sounds. We finalized the
-      game with the menu, game over, and win screens.</p>
     <div class="row">
-      <div class="col-lg-4"><img class="img-fluid" src="assets/img/shed.png"></div>
-      <div class="col-lg-4"><img class="img-fluid" src="assets/img/shed.png"></div>
+      <div class="col-lg-4"><img class="img-fluid" src="assets/img/wolfstatemachine.png"></div>
+      <div class="col-lg-4"><img class="img-fluid" src="assets/img/forest.png"></div>
+      <div class="col-lg-4"><img class="img-fluid" src="assets/img/meatdistraction.png"></div>
     </div>
-    <div class="row align-content-center p-3">
-      <div class="col"><img class="img-fluid" src="assets/img/startscreen.gif"></div>
+    <h3 class="mt-5">Final</h3>
+    <p>Towards the end of the semester, we added in a gun which includes a crosshair and animations. We also worked on
+      set design, adding high textured water, flowing grass, and some skeletons with
+      jump scare sounds. We finalized the game with the menu, game over, and win screens.</p>
+    <div class="row pb-5">
+      <div class="col-lg-4"><img class="img-fluid" src="assets/img/guncrosshair.png"></div>
+      <div class="col-lg-4"><img class="img-fluid" src="assets/img/shed.png"></div>
+      <div class="col-lg-4"><img class="img-fluid" src="assets/img/startscreen.png"></div>
     </div>
   </div>
   </div>
 </section>
+<section>
+  <div class="bg-black text-white text-center p-4" id="storyboard">
+    <h2>Storyboard</h2>
+    <div class="row justify-content-center p-4">
+      <div class="col-lg-6"><img src="https://lycanthropia.github.io/Lycanthropia/Images/Lycanthropia_Concept_1.jpg"/>
+      </div>
+      <div class="col-lg-6"><img src="https://lycanthropia.github.io/Lycanthropia/Images/Lycanthropia_Concept_2.jpg"/>
+      </div>
+    </div>
+    <h2>Sketches for Assets</h2>
+    <div class="row justify-content-center p-4">
+      <div class="col-lg-12"><img src="assets/img/ConceptualizingAssets.png"/>
+      </div>
+    </div>
+    <h2 class="mt-3 mb-5">Final Assets</h2>
+    <div class="row justify-content-center">
+      <div class="col-lg-3"><img width="300px" height="300px" src="assets/img/MeatBone.png"/>
+      </div>
+      <div class="col-lg-3"><img width="300px" height="300px" src="assets/img/MudPuddle.png"/>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- Projects/Trello-->
-<section class="bg-light pt-5" id="trello">
-
+<section class="bg-light pt-5 pb-5" id="trello">
   <div class="container bg-light">
     <h2 class="text-center mb-5">Trello Board</h2>
     <!-- Featured Project Row-->
@@ -151,31 +181,20 @@
         </div>
       </div>
     </div>
-    <p><a href="https://trello.com/b/gjWd2Off/project-2-lycanthrobia">Here is a link to our Trello Board.</a></p>
+    <h4 class="text-center"><a href="https://trello.com/b/gjWd2Off/project-2-lycanthrobia">Here is a link to our Trello
+      Board</a></h4>
   </div>
   </div>
 </section>
-<section>
-  <div class="bg-black text-white text-center p-4" id="storyboard">
-    <h2>Storyboard</h2>
-    <div class="row justify-content-center p-4">
-      <div class="col-lg-6"><img src="https://lycanthropia.github.io/Lycanthropia/Images/Lycanthropia_Concept_1.jpg"/>
-      </div>
-      <div class="col-lg-6"><img src="https://lycanthropia.github.io/Lycanthropia/Images/Lycanthropia_Concept_2.jpg"/>
-      </div>
-    </div>
-    <h2>Sketches for Assets</h2>
-    <div class="row justify-content-center p-4">
-      <div class="col-lg-12"><img src="assets/img/ConceptualizingAssets.png"/>
-      </div>
-    </div>
-    <h2 class="mt-3 mb-5">Final Assets</h2>
-    <div class="row justify-content-center">
-      <div class="col-lg-3"><img width="300px" height="300px" src="assets/img/MeatBone.png"/>
-      </div>
-      <div class="col-lg-3"><img width="300px" height="300px" src="assets/img/MudPuddle.png"/>
-      </div>
-    </div>
+
+<section class="bg-light pt-5" id="miro">
+  <h2 class="text-center mb-5">Miro Board</h2>
+  <div class="container align-content-center">
+    <p class="text-black-50">This is our Miro board, where we jotted down our brainstorms in the beginning of the
+      project.</p>
+    <img height="75%" width="75%" src="assets/img/miroboard.png">
+    <h4 class="text-center mt-5 pb-5"><a href="https://miro.com/app/board/o9J_lTD4msg=/">Here is a link to our Miro
+      Board</a></h4>
   </div>
 </section>
 
@@ -207,6 +226,9 @@
             <h4 class="text-uppercase m-0">Jeffrey Yu</h4>
             <hr class="my-4"/>
             <div class="small text-black-50">ICS Student</div>
+            <div class="small text-black-50"><a href="https://jeffreyyu1.github.io/" target="_blank">Website</a></div>
+            <div class="small text-black-50"><a href="https://github.com/JeffreyYu1" target="_blank"><i
+                class="fab fa-github"></i></a></div>
           </div>
         </div>
       </div>
@@ -218,6 +240,8 @@
             <h4 class="text-uppercase m-0">Michael Kwak</h4>
             <hr class="my-4"/>
             <div class="small text-black-50">ACM Student</div>
+            <div class="small text-black-50"><a href="https://github.com/RammaGamma" target="_blank"><i
+                class="fab fa-github"></i></a></div>
           </div>
         </div>
       </div>
@@ -226,9 +250,12 @@
           <img height="450px"
                src="https://user-images.githubusercontent.com/47268740/110231948-c6418200-7ebe-11eb-9bfd-6185b359e88c.png"/>
           <div class="card-body text-center">
-            <h4 class="text-uppercase m-0"><a href="https://wjinyan.github.io/">Jin Yan Wu</a></h4>
+            <h4 class="text-uppercase m-0">Jin Yan Wu</h4>
             <hr class="my-4"/>
             <div class="small text-black-50">ICS Student</div>
+            <div class="small text-black-50"><a href="https://wjinyan.github.io/" target="_blank">Website</a></div>
+            <div class="small text-black-50"><a href="https://github.com/wjinyan" target="_blank"><i
+                class="fab fa-github"></i></a></div>
           </div>
         </div>
       </div>
